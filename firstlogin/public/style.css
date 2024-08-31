@@ -1,0 +1,92 @@
+html,body{
+    height: 100%;
+}
+.flexcontainer {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    
+}
+
+.left-container {
+    flex: 0.75; /* Ensures both containers take up equal space */
+}
+.right-container 
+{
+    flex:1.25;
+}
+.left-container {
+    background-color: #f8f9fa;
+    order: 1; /* Optional: to see the container better */
+}
+
+.right-container {
+    background-color: black;
+    color: white;
+    padding: 20px; /* Optional: adds some space inside the container */
+    order: 2;
+    width: 90%;
+    align-items: center;
+    justify-self: center;
+    text-align: center;
+    padding-top: 200px;
+    padding-right: 100px;
+       
+}
+.form-container
+{
+    display: flex;
+    line-height: 50px;
+    
+    padding-left: 50px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    
+}
+.input-group
+{
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 10%;
+    align-items: left;
+}
+label{
+    margin-bottom: 5px;
+    display: block;
+    margin-right: 20px;
+}
+input,
+{
+    margin-bottom: 30px;
+
+}
+.input-group .input-group-text {
+    background-color: #e9ecef; /* Background color for the text */
+    border: 1px solid #ced4da; /* Border color to match input */
+}
+Submit
+input.form-control.submit
+{
+    background-color: orange !important;
+    height: 50px;
+    width: 200px;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.img {
+    width: 100%;
+    height: 100%; /* Adjust if necessary */
+    object-fit: cover;
+}
+
+h1{
+    text-align: center;
+}
+
+

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>payment</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='create.css'>
+    <script src='main.js'></script>
+</head>
+<body><!--form is not that secured coz it displays the info in the URL-->
+    <div class="cont">
+    <form action="">
+    <h1>payment form</h1>
+    <h2> contact information</h2>
+    <p>NAME:
+        <input type="text" name="name" required placeholder="Anya"></p>
+    <P>
+    <fieldset>
+        <legend>Gender:</legend>
+        MALE:<input type="radio" name="gender" value="male">
+        FEMALE:<input type="radio" name="gender" value="male">
+        OTHERS:<input type="radio" name="gender" value="male">
+    </fieldset>
+    </P>
+    <P>ADDRESS:<textarea name="address" rows="10" cols="50"></textarea></P>
+    <p>E-MAIL:<input type="email" id="email" name="email" required></p>
+    <p>PINCODE:<input type="number" name="pincode"></p>
+    <p> upload file:<input type="file" name="file0"></p>
+    <button>payment details</button>
+    <h2>payment option</h2>
+    <p>card type:
+        <select name="card_type">
+            <option value="">--select ooption--</option>
+            <option value="visa">VISA</option>
+            <option value="mastercard">MASTERCARD</option>
+            <option value="rupay">RUPAY</option>
+
+        </select>
+    </p>
+    <p>card number:
+        <input type="number" name="card_number">
+        </p>
+    <p>expiration date:
+        <input type="date" name="expiration_date">
+    </p>
+    <p>
+        CVV:
+        <input type="password" name="CVV">
+    </p>
+
+    </p>
+    <input type="submit" value="paynow">
+    </form>
+    </div>
+</body>
+</html>
